@@ -6,4 +6,4 @@ spring:
     password: guest
 
 server:
-  port: 8001
+  port: 8011
