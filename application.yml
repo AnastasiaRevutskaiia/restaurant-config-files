@@ -1,4 +1,6 @@
 spring:
+  zipkin:
+    base-url: http://localhost:9001/
   datasource:
     #need to TimeZone settings
     url: jdbc:mysql://localhost:3306/restaurant?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
