@@ -1,8 +1,4 @@
 spring:
-  zipkin:
-    baseUrl: http://localhost:9001/
-    sender:
-      type: rabbitmq
   datasource:
     #need to TimeZone settings
     url: jdbc:mysql://localhost:3306/restaurant?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC

@@ -1,2 +1,5 @@
+spring:
+  sleuth:
+    enabled: false
 server:
   port: 9001

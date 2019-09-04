@@ -1,2 +1,7 @@
+spring:
+  zipkin:
+    enabled: true
+    baseUrl: http://localhost:9001
+
 server:
   port: 8082
