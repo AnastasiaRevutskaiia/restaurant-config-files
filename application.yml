@@ -1,9 +1,6 @@
 spring:
   zipkin:
     base-url: http://localhost:9001/
-    enabled: false
-  sleuth:
-    enabled: false
     
   datasource:
     #need to TimeZone settings
