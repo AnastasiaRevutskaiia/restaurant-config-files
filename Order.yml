@@ -1,2 +1,6 @@
+spring:
+  sleuth:
+    sampler:
+      percentage: 1.0
 server:
   port: 8085
