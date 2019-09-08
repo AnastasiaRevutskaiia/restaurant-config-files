@@ -19,9 +19,10 @@ spring:
     username: guest
     password: guest
   sleuth:
-    enabled: true
+    enabled: false
   zipkin:
-    enabled: true
+    enabled: false
+
 
 
 eureka:
@@ -30,3 +31,10 @@ eureka:
     registerWithEureka: true
     serviceUrl:
       defaultZone: http://localhost:8761/eureka,http://localhost:8762/eureka
+
+management:
+  security:
+    enabled: false
+
+
+    
