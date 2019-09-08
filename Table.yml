@@ -8,7 +8,7 @@ eureka:
     fetchRegistry: true
     registerWithEureka: true
     serviceUrl:
-      defaultZone: http://localhost:8760
+      defaultZone: http://localhost:8762
 
 server:
   port: 8082
