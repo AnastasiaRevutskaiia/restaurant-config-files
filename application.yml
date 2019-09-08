@@ -22,6 +22,10 @@ spring:
     enabled: false
   zipkin:
     enabled: false
+  cloud:
+    bus:
+      trace:
+        enabled: true
 
 eureka:
   client:
