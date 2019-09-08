@@ -27,6 +27,7 @@ spring:
       trace:
         enabled: true
 
+
 eureka:
   client:
     fetchRegistry: true
