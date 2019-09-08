@@ -2,5 +2,13 @@ spring:
   sleuth:
     sampler:
       percentage: 1.0
+
+eureka:
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8760
+
 server:
   port: 8082
