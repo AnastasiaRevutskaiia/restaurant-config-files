@@ -5,3 +5,15 @@ spring:
 
 server:
   port: 8082
+
+spring.cloud.stream.bindings:
+  input:
+    destination: table 
+    #  setting the spring.cloud.stream.bindings.input.destination application 
+    # property to raw-sensor-data causes it to read from the raw-sensor-data Kafka 
+    # topic or from a queue bound to the raw-sensor-data RabbitMQ exchange.
+    group: table
+    consumer:
+      partitioned: false
+      instanceCount: 1
+      instanceIndex: 0
